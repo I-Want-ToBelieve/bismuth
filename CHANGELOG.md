@@ -5,6 +5,17 @@
 
 # Changelog
 
+## [2.0.0](https://www.github.com/Bismuth-Forge/bismuth/compare/v1.1.0...v2.0.0) (2021-10-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* These options should be always enabled by default, because this is how all tiling window managers work: mouse resize always has feedback and resizing always affects the layout.
+
+### Features
+
+* remove adjustLayout options ([1cdf1a5](https://www.github.com/Bismuth-Forge/bismuth/commit/1cdf1a5bb22d7d323d0a242253f4e88216d251dc))
+
 ## [1.1.0](https://www.github.com/gikari/bismuth/compare/v1.0.2...v1.1.0) (2021-10-23)
 
 
