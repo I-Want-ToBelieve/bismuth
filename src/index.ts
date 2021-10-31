@@ -18,6 +18,8 @@ export function init(
   const config = new ConfigImpl(kwinScriptingApi);
   const logger = new LogImpl(config);
 
+  logger.log(`Tray Item menu: ${qmlObjects.trayItem.menu}`);
+
   const controller = new ControllerImpl(
     qmlObjects,
     kwinScriptingApi,
