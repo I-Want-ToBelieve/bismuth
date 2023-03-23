@@ -60,8 +60,8 @@ void Decoration::updateColors()
 {
     auto colorsConfig = KSharedConfig::openConfig("kdeglobals");
     auto group = colorsConfig->group("Colors:Window");
-    m_activeColor = group.readEntry("DecorationFocus", QColor(255, 0, 0));
-    m_inactiveColor = group.readEntry("BackgroundNormal", QColor(0, 0, 0));
+    m_activeColor = QColor(110, 255, 137);
+    m_inactiveColor = QColor(81, 100, 104);
 }
 
 void Decoration::setBorderSizes()
