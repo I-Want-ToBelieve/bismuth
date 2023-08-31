@@ -39,7 +39,7 @@ endif()
 set(ESBUILD_COMMAND
     "esbuild" "--bundle" "${CMAKE_CURRENT_SOURCE_DIR}/index.ts"
     "--outfile=${CMAKE_CURRENT_BINARY_DIR}/bismuth/contents/code/index.mjs"
-    "--format=esm" "--platform=neutral")
+    "--format=esm" "--platform=neutral" "--target=es2016")
 if(USE_NPM)
   list(PREPEND ESBUILD_COMMAND "npx")
 endif()
